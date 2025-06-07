@@ -1,0 +1,152 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Newsreader%3Awght%40400%3B500%3B700%3B800&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div
+      class="relative flex size-full min-h-screen flex-col bg-slate-50 justify-between group/design-root overflow-x-hidden"
+      style='font-family: Newsreader, "Noto Sans", sans-serif;'
+    >
+      <div>
+        <div class="flex items-center bg-slate-50 p-4 pb-2 justify-between">
+          <div class="text-[#0d141c] flex size-12 shrink-0 items-center" data-icon="ArrowLeft" data-size="24px" data-weight="regular">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path d="M224,128a8,8,0,0,1-8,8H59.31l58.35,58.34a8,8,0,0,1-11.32,11.32l-72-72a8,8,0,0,1,0-11.32l72-72a8,8,0,0,1,11.32,11.32L59.31,120H216A8,8,0,0,1,224,128Z"></path>
+            </svg>
+          </div>
+          <h2 class="text-[#0d141c] text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center">Liam Carter</h2>
+          <div class="flex w-12 items-center justify-end">
+            <button
+              class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 bg-transparent text-[#0d141c] gap-2 text-base font-bold leading-normal tracking-[0.015em] min-w-0 p-0"
+            >
+              <div class="text-[#0d141c]" data-icon="Phone" data-size="24px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M222.37,158.46l-47.11-21.11-.13-.06a16,16,0,0,0-15.17,1.4,8.12,8.12,0,0,0-.75.56L134.87,160c-15.42-7.49-31.34-23.29-38.83-38.51l20.78-24.71c.2-.25.39-.5.57-.77a16,16,0,0,0,1.32-15.06l0-.12L97.54,33.64a16,16,0,0,0-16.62-9.52A56.26,56.26,0,0,0,32,80c0,79.4,64.6,144,144,144a56.26,56.26,0,0,0,55.88-48.92A16,16,0,0,0,222.37,158.46ZM176,208A128.14,128.14,0,0,1,48,80,40.2,40.2,0,0,1,82.87,40a.61.61,0,0,0,0,.12l21,47L83.2,111.86a6.13,6.13,0,0,0-.57.77,16,16,0,0,0-1,15.7c9.06,18.53,27.73,37.06,46.46,46.11a16,16,0,0,0,15.75-1.14,8.44,8.44,0,0,0,.74-.56L168.89,152l47,21.05h0s.08,0,.11,0A40.21,40.21,0,0,1,176,208Z"
+                  ></path>
+                </svg>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div class="flex items-end gap-3 p-4">
+          <div
+            class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10 shrink-0"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBLneJcBo03bnWzCHSfkX8-hjucnQhPm-nFeRs05QpJHqcx-XNgDBTjgNiOmSSkDoNigrwH23nDSdGZ0-hiOP1YRHu76Sdn0mOXJq6onffXjohTUGGdVdN1q5rOoFmD950SuEBvZ-y511WPk8Bo5OXJOhCH56fJVKWvUGSWaegkOK-EtUiOOE49kpfX3Eqqb2BB2ysYeZbqWbALLUy0DrGP-ipyfNsjy8nr7RfPZaKf8w-RisYg1Wvy81Vz3dH2Tnfs1Sf84MHenS0");'
+          ></div>
+          <div class="flex flex-1 flex-col gap-1 items-start">
+            <p class="text-[#49739c] text-[13px] font-normal leading-normal max-w-[360px]">Liam Carter</p>
+            <p class="text-base font-normal leading-normal flex max-w-[360px] rounded-lg px-4 py-3 bg-[#e7edf4] text-[#0d141c]">
+              Hey there! I'm interested in borrowing 'The Secret Garden' from your collection. Would it be possible to arrange a pickup sometime next week?
+            </p>
+          </div>
+        </div>
+        <div class="flex items-end gap-3 p-4 justify-end">
+          <div class="flex flex-1 flex-col gap-1 items-end">
+            <p class="text-[#49739c] text-[13px] font-normal leading-normal max-w-[360px] text-right">Sophia Bennett</p>
+            <p class="text-base font-normal leading-normal flex max-w-[360px] rounded-lg px-4 py-3 bg-[#0c7ff2] text-slate-50">
+              Hi Liam, I'm glad you're interested! Next week works for me. How about Tuesday afternoon?
+            </p>
+          </div>
+          <div
+            class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10 shrink-0"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAEOsfg_wXVbRgShwNHBZnUDq1bQiIsqjR8cgQJ3WWP3_D21-9X7XqLpXbsE_ure7CZ2ISkDqjFbIQjWruBtVSlNgTZqbD__0r16uFZ-Fx7YK6bCfTrM2M8mi99c2qdV3gE4KLsjs6YbY68uBJRDUtV7_tQwnI_ZvDyYe5Nh65tzy-q-tat56mNXw_MD_C_mBJVMjD-n4ofbMkSMdZQ-PoVW8SxiVPwqbNskihu6ZObJ7IKvxLFpQA8fnl-hpVQUkV1gfzEXAb4IYU");'
+          ></div>
+        </div>
+        <div class="flex items-end gap-3 p-4">
+          <div
+            class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10 shrink-0"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBSEI_1GFCgUKzbcnDp0cCpXCaKF7jFg29tynRYXgBajVYGemeMl5ipzsjH4U9l4f6eDYnuJXIt50MRPhaljp2gpbnVnKag3STXBsjNxHgs6Aa3LxzGJTBzwGOzG9t7O64LERkJi7pZ57ggRHa_ObzqmlgayLrTfKYB6wkc2DnT2LkCSSvSDkK9NAP9OhbAkK3oXN7mKgeHW2N12d3RS6Taq4b80suGQE7bDYF7kTPgh0yJD82C0NJSNlWT2SWP642jH7NZ3oTVVAY");'
+          ></div>
+          <div class="flex flex-1 flex-col gap-1 items-start">
+            <p class="text-[#49739c] text-[13px] font-normal leading-normal max-w-[360px]">Liam Carter</p>
+            <p class="text-base font-normal leading-normal flex max-w-[360px] rounded-lg px-4 py-3 bg-[#e7edf4] text-[#0d141c]">
+              Tuesday afternoon sounds perfect. Where would you like to meet?
+            </p>
+          </div>
+        </div>
+        <div class="flex items-end gap-3 p-4 justify-end">
+          <div class="flex flex-1 flex-col gap-1 items-end">
+            <p class="text-[#49739c] text-[13px] font-normal leading-normal max-w-[360px] text-right">Sophia Bennett</p>
+            <p class="text-base font-normal leading-normal flex max-w-[360px] rounded-lg px-4 py-3 bg-[#0c7ff2] text-slate-50">
+              I'm near the Central Library. Is that convenient for you?
+            </p>
+          </div>
+          <div
+            class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10 shrink-0"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCo7pKYkytJPI5d_W3-Bn0JEeAtil8-cCZk4FzA7ToWe-rSViNlWiMKjnOmdLfYgxVQgcrfCqYlBNShKRIgCsgcs7aXUrfL242U1vlN-r95_0P0rarGeL-RqZvZkiem1Yv3axASQB9ceFQEA1wi1RqO8hxjkJA3AkBFSkGTrAeoMVAQkcRYgLwywplhyYH4v3ItgtTLA1jYWu1_KXYwwKtnp7gIlrPYGOnb2a8KsFMn-P53SMRvgKUYTKnX5jm7ofZexOiSwo5gsXw");'
+          ></div>
+        </div>
+        <div class="flex items-end gap-3 p-4">
+          <div
+            class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10 shrink-0"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCQZLEXQN-QmWNXbi3dGaHF-6WEeh9XGsafH5p0GAbzmcf-3zao0khlWRUvzm1t3k09-t8rGtvIHwFVDh1Uk0ndMtNTixVssY4cqkJP7xrxCOKlZGneCTknYFxo-9nJhUBjcrP6jl2I5veuKLUvlbWLpb_P1I0Qs8FITiEeT3adZC1ZMHZw9NPsuAFv-KIOsXS--StAORSxiaKqI05jNlVZgnBumXjbfu3W7nxi-E9gsQxlTulqsw-fAI2mLfOxjCu5e4dglnWZSro");'
+          ></div>
+          <div class="flex flex-1 flex-col gap-1 items-start">
+            <p class="text-[#49739c] text-[13px] font-normal leading-normal max-w-[360px]">Liam Carter</p>
+            <p class="text-base font-normal leading-normal flex max-w-[360px] rounded-lg px-4 py-3 bg-[#e7edf4] text-[#0d141c]">
+              Yes, that's great! I can be there around 3 PM. Does that work?
+            </p>
+          </div>
+        </div>
+        <div class="flex items-end gap-3 p-4 justify-end">
+          <div class="flex flex-1 flex-col gap-1 items-end">
+            <p class="text-[#49739c] text-[13px] font-normal leading-normal max-w-[360px] text-right">Sophia Bennett</p>
+            <p class="text-base font-normal leading-normal flex max-w-[360px] rounded-lg px-4 py-3 bg-[#0c7ff2] text-slate-50">
+              3 PM at the Central Library works perfectly. Looking forward to meeting you!
+            </p>
+          </div>
+          <div
+            class="bg-center bg-no-repeat aspect-square bg-cover rounded-full w-10 shrink-0"
+            style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCKlxgShVEbS-MH9_VShGu7TZ1IU7rT1AUH5KgxYyv9qUen0yGMZ6Rt3kgQR9vYEPxtVpxzCoJX6Ms6nppfcttBlk9HKfo33y5FPvoZ6jSW6JRXndp3qBk9G4O91FcARq9ZVSZ-3cD42txfhGI60MUTEfEnCjWa4aqLte9rfn0DR-aEpxEtj7KtskG6kRZPgphf-4g0Hdb9rZMvu5fV5SFsNMw04MA-PP8URRAw5x16QZLyldni5Wus0p1MaGF9duT9TAPC13WYP2c");'
+          ></div>
+        </div>
+      </div>
+      <div>
+        <div class="flex items-center px-4 py-3 gap-3 @container">
+          <label class="flex flex-col min-w-40 h-12 flex-1">
+            <div class="flex w-full flex-1 items-stretch rounded-lg h-full">
+              <input
+                placeholder="Write a message"
+                class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-[#0d141c] focus:outline-0 focus:ring-0 border-none bg-[#e7edf4] focus:border-none h-full placeholder:text-[#49739c] px-4 rounded-r-none border-r-0 pr-2 text-base font-normal leading-normal"
+                value=""
+              />
+              <div class="flex border-none bg-[#e7edf4] items-center justify-center pr-4 rounded-r-lg border-l-0 !pr-2">
+                <div class="flex items-center gap-4 justify-end">
+                  <div class="flex items-center gap-1">
+                    <button class="flex items-center justify-center p-1.5">
+                      <div class="text-[#49739c]" data-icon="Image" data-size="20px" data-weight="regular">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                          <path
+                            d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,16V158.75l-26.07-26.06a16,16,0,0,0-22.63,0l-20,20-44-44a16,16,0,0,0-22.62,0L40,149.37V56ZM40,172l52-52,80,80H40Zm176,28H194.63l-36-36,20-20L216,181.38V200ZM144,100a12,12,0,1,1,12,12A12,12,0,0,1,144,100Z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </button>
+                  </div>
+                  <button
+                    class="min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-8 px-4 bg-[#0c7ff2] text-slate-50 text-sm font-medium leading-normal hidden @[480px]:block"
+                  >
+                    <span class="truncate">Send</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </label>
+        </div>
+        <div class="h-5 bg-slate-50"></div>
+      </div>
+    </div>
+  </body>
+</html>
